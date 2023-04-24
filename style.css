@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #000000;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.836);
+}
+nav ul {
+    height: 44px;
+    font-size: 12px;
+}
+nav img {
+    height: 20px;
+    width: 21px;
+}
+nav ul li {
+  margin-inline: 11px;
+}
+.colorjero{
+    color: #f5f5f7af;
+}
+.colorjero:hover {
+    color: #f5f5f7cf;
+}
+.cajanav {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.cajanav li a svg {
+    margin-bottom: 3px;
+}
+
+.containerjero {
+    height: 1160px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, #0d0439 0, #090222 8.33%, #06021f 16.67%, #000000 25%, #000000 33.33%, #000000 41.67%, #000000 50%, #000000 58.33%, #000000 66.67%, #000000 75%, #000000 83.33%, #000000 91.67%, #000000 100%);
+
+}
+.img1 {
+    width: 944px;
+    height: 725px;
+    margin-top: -110px;
+}
+.jerocontainer {
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 630px;
+    height: 344px;
+    color: #c6e2e6;
+    margin-left: 155px;
+    margin-top: -95px;
+}
+.jerocontainer img {
+    width: 420px;
+    height: 90px;
+    margin-top: -27px;
+}
+.jerocontainer .btn {
+    color: #c6e2e6;
+    width: 200px;
+    border: 2px solid #c6e2e6;
+    transition: .4s ease-in-out,color .4s ease-in-out;
+}
+.jerocontainer .btn:hover {
+    color: black;
+    background-color: #c6e2e6;
+}
+.ios16 {
+    color: #1d1d1f;
+    align-items: center;
+    text-align: center;
+    background-color: #F5F5F7;
+    border: none;
+    border-radius: 0;
+
+}
+.ios16 h2 {
+    font-size: 72px;
+    font-weight: 700;
+}
+.ios16jero {
+    align-items: center;
+    width: 100%;
+}
+.ios16jero p {
+    width: 548px;
+    margin-top: -100px;
+    z-index: 9999;
+    font-size: 24px;
+}
+.ios16jero button {
+    transition: .4s ease-in-out,color .4s ease-in-out;
+    font-size: 17px;
+}
+.macosventura {
+    margin-top: -20px;
+}
+.macosventurajero {
+    align-items: center;
+    width: 100%;
+}
+.macosventurajero p {
+    width: 548px;
+    z-index: 9999;
+    font-size: 24px;
+}
+.macosventurajero button {
+    transition: .4s ease-in-out,color .4s ease-in-out;
+    font-size: 17px;
+}
+
+footer {
+    background-color: #1d1d1f;
+}
